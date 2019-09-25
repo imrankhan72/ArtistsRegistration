@@ -1,0 +1,22 @@
+
+.top-wrpper{
+    position: relative;
+    width: 100%;
+    z-index: 54;
+    padding: 8px 0px;
+   
+}
+.top-wrpper img {
+    margin-top: 30px;
+}
+.body-color{
+    background: url("/files/body-bg.png");
+    background-repeat: repeat-x; 
+}
+.head-color{
+    background-color: #572f00;
+    width: 100%;
+    color: beige;
+    padding: 10px;
+}
+
