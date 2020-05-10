@@ -33,11 +33,7 @@
             <div class="col-md-4">
                  <a class="logo" href="/"><img alt="logo of department" src="files/logo-h.png"></a>    
             </div>
-            
-
-            
-
-               
+   
            </div>
         </div>
         </header>
@@ -189,6 +185,19 @@
                     <div class="input-group">
                       <input type="text" class="form-control" id="address" name="address" required>
                       </div>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-md-4">
+                    <label class="labelstrong" for="name">District / पता :</label>
+                  </div>
+                  <div class="col-md-8">
+                    <select class="form-control">
+                     @foreach($districts as $district) 
+                     <option value="{{$loop->iteration}}" >{{$district}}</option>
+                     @endforeach
+                    </select>
                   </div>
                 </div>
                 <br>

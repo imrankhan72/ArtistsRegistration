@@ -10,7 +10,8 @@ class ArtistController extends Controller
 {
     public function index(){
         $arts = ['गायन','वादन','नृत्‍य', 'चित्र', 'शिल्‍प', 'रंगमंच','अन्य'];
-        return view('form',compact('arts'));
+        $districts = ['Anuppur', 'Ashoknagar', 'Balaghat','Barwani', 'Betul','Bhind', 'Bhopal', 'Burhanpur'];
+        return view('form',compact('arts','districts'));
     
       }
     public function store(Request $request) {
@@ -34,20 +35,17 @@ class ArtistController extends Controller
             'fathersname'=>$request->get('fathersname'),
             'dob'=>$request->get('dob'),
             'gender'=>$request->get('gender'),
-            'language'=>$request->get('language'),
             'email'=>$request->get('email'),
             'pno'=>$request->get('pno'),
-            'state'=>$request->get('state'),
             'city'=>$request->get('city'),
             'address'=>$request->get('address'),
+            'experience'=>$request->get('experience'),
             'photourl'=>$artistphoto_url,
-            'artist_level'=>$request->get('artist_level'),
             'creation_mode'=>$creation_mode,
             'creation_mode_sub'=>$creation_mode_sub,
             'creation_video_url'=>$request->get('creation_video_url'),
-            'name_inst'=>$request->get('name_inst'),
-            'inst_address'=>$request->get('inst_address'),
             'adhaar'=>$request->get('adhaar'),
+            'pan'=>$request->get('pan'),
             'bank_name'=>$request->get('bank_name'),
             'ifsc_code'=>$request->get('ifsc_code'),
             'branch_name'=>$request->get('branch_name'),
