@@ -56,19 +56,19 @@ class ArtistController extends Controller
         $artist->save();
 
         $artist_id = $artist->id;
-        if($request->hasFile('creation')) {
-            $creations = $request->file('creation');
-            foreach($creations as  $creations) {
-              $filename = time().$creations->getClientOriginalName();
-              $creations->move(public_path(). "/userfiles", $filename);
-                $new_creation = new Creation([
-                    'artist_id'=>$artist_id,
-                    'creation_file_name'=>$filename
-                ]);
-                $new_creation->save();
-              //DB::insert('insert into creations (artist_id,creation_file_name) values (?, ?)', array($artist_id,$filename));
-          }
-        }
+        // if($request->hasFile('creation')) {
+        //     $creations = $request->file('creation');
+        //     foreach($creations as  $creations) {
+        //       $filename = time().$creations->getClientOriginalName();
+        //       $creations->move(public_path(). "/userfiles", $filename);
+        //         $new_creation = new Creation([
+        //             'artist_id'=>$artist_id,
+        //             'creation_file_name'=>$filename
+        //         ]);
+        //         $new_creation->save();
+        //       //DB::insert('insert into creations (artist_id,creation_file_name) values (?, ?)', array($artist_id,$filename));
+        //   }
+        // }
 
         return redirect('/')->with('success', 'Your registration has been added Successfully. We will contact as soon as possible.');
         
