@@ -20,7 +20,7 @@ class ArtistController extends Controller
     public function store(Request $request) {
         
         $creation_mode = implode(",", $request->get('creation_mode'));
-        $creation_mode_sub = implode(",", $request->get('creation_mode_sub'));
+        
 
         if($request->hasFile('artist_photo')){
             $artist_photo =  $request->file('artist_photo');
@@ -37,7 +37,6 @@ class ArtistController extends Controller
             'name'=>$request->get('name'),
             'fathersname'=>$request->get('fathersname'),
             'dob'=>$request->get('dob'),
-            'gender'=>$request->get('gender'),
             'email'=>$request->get('email'),
             'pno'=>$request->get('pno'),
             'city'=>$request->get('city'),
@@ -45,15 +44,13 @@ class ArtistController extends Controller
             'experience'=>$request->get('experience'),
             'photourl'=>$artistphoto_url,
             'creation_mode'=>$creation_mode,
-            'creation_mode_sub'=>$creation_mode_sub,
             'creation_video_url'=>$request->get('creation_video_url'),
             'adhaar'=>$request->get('adhaar'),
             'pan'=>$request->get('pan'),
             'bank_name'=>$request->get('bank_name'),
             'ifsc_code'=>$request->get('ifsc_code'),
             'branch_name'=>$request->get('branch_name'),
-            'scheme'=>$request->get('scheme'),
-            'presenter'=>$request->get('presenter'),
+
         ]);
 
         $artist->save();
@@ -73,7 +70,7 @@ class ArtistController extends Controller
           }
         }
 
-        return redirect('/')->with('success', 'Your registration has been added Successfully');
+        return redirect('/')->with('success', 'Your registration has been added Successfully. We will contact as soon as possible.');
         
 
         
