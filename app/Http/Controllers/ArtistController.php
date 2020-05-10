@@ -9,7 +9,8 @@ use App\Creation;
 class ArtistController extends Controller
 {
     public function index(){
-        return view ('form');
+        $arts = ['गायन','वादन','नृत्‍य', 'चित्र', 'शिल्‍प', 'रंगमंच','अन्य'];
+        return view('form',compact('arts'));
     
       }
     public function store(Request $request) {

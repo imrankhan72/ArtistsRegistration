@@ -1,17 +1,8 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-View::share('languages', \App\Language::all());
-View::share('arts', \App\Art::all());
+
+// View::share('languages', \App\Language::all());
+// View::share('arts', \App\Art::all());
 Route::get('/tnc','SessionsController@tnc');
 
 
