@@ -173,10 +173,19 @@
                     <label class="labelstrong" for="name">Address / पता :</label>
                   </div>
                   <div class="col-md-8">
-
                     <div class="input-group">
                       <input type="text" class="form-control" id="address" name="address" required>
-                     
+                      </div>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-md-4">
+                    <label class="labelstrong" for="name">Experience / कार्य अनुभव: :</label>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="input-group">
+                      <input type="text" class="form-control" id="address" name="address" required>
                       </div>
                   </div>
                 </div>
@@ -279,17 +288,27 @@
                 </div>
                 <br>
                 <div class="row">
+                  <div class="col-md-4">
+                    <label class="labelstrong" for="name"> Other details (Optional) <br> अन्य विवरण (वैकल्पिक):</label>
+                  </div>
+                  <div class="col-md-8">
+
+                    <div class="input-group">
+                      <input type="text" class="form-control"  id="other_details" name="other_details"  >
+                     
+                      </div>
+                  </div>
+                </div>
+
+                <br>
+                <div class="row">
                   <div class="col-md-12">
                   <p class="labelstrong">Please accept the terms and conditions to submit / कृपया सबमिट करने के लिए नियम और शर्त स्वीकार करें 
                   <br><br><a href="/tnc">नियम व शर्तें / Terms & Condition</a> &nbsp; <input type="checkbox"  onchange="checkedChanged(this)"/> &nbsp; (✔)</p>
-
                 </div>
-                  
                 </div>             
                 <br>
 
-                
-                  
                 <button class="btn btn-primary btn-lg" id="tnc" type="submit" disabled="disabled" >Submit</button>
                 
 
