@@ -1,8 +1,8 @@
 <?php
 
 
-// View::share('languages', \App\Language::all());
-// View::share('arts', \App\Art::all());
+View::share('languages', \App\Language::all());
+View::share('arts', \App\Art::all());
 Route::get('/tnc','SessionsController@tnc');
 
 
