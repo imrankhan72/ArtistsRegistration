@@ -25,7 +25,10 @@
 }
 </style>
 
-<div class="top-wrpper">
+
+<body class="bg-white body-color">
+
+   <div class="top-wrpper">
         <header id="header">
             <div class="container">
             <div class="row">
@@ -39,9 +42,8 @@
         </header>
 </div>
 
-<body class="bg-white body-color">
 
-      <div class="container ">
+      <div class="container">
           <div class="py-5 text-center ">
             <h4 class="head-color"> Artists Registration / कलाकारों का पंजीकरण</h4>
           </div>

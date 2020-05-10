@@ -10,7 +10,10 @@ class ArtistController extends Controller
 {
     public function index(){
         $arts = ['गायन','वादन','नृत्‍य', 'चित्र', 'शिल्‍प', 'रंगमंच','अन्य'];
-        $districts = ['Anuppur', 'Ashoknagar', 'Balaghat','Barwani', 'Betul','Bhind', 'Bhopal', 'Burhanpur'];
+        $districts = ['Anuppur', 'Ashoknagar', 'Balaghat','Barwani', 'Betul','Bhind', 
+        'Bhopal', 'Burhanpur','Chhatarpur','Chhindwara','Damoh','Datia','Dewas','Dhar','Dindori','Guna','Gwalior','Harda','Hoshangabad','Indore','Jabalpur',
+        'Jhabua','Katni','Khandwa','Khargone','Mandla','Mandsaur','Morena','Narsinghpur','Neemuch','Panna','Raisen','Rajgarh','Ratlam','Rewa','Sagar',
+        'Satna', 'Sehore','Seoni','Shahdol','Shajapur','Sheopur','Shivpuri','Sidhi','Tikamgarh','Ujjain','Umaria','Vidisha'];
         return view('form',compact('arts','districts'));
     
       }
