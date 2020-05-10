@@ -156,6 +156,19 @@
                 <br>
                 <div class="row">
                   <div class="col-md-4">
+                    <label class="labelstrong" for="name">PAN No. (Optional) / पैन नंबर (वैकल्पिक):</label>
+                  </div>
+                  <div class="col-md-8">
+
+                    <div class="input-group">
+                      <input type="tel" class="form-control" minlength="12" maxlength="12" id="adhaar" name="pan"  >
+                     
+                      </div>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-md-4">
                     <label class="labelstrong" for="name">Adhaar No. (Optional) / आधार नंबर (वैकल्पिक):</label>
                   </div>
                   <div class="col-md-8">
@@ -185,7 +198,7 @@
                   </div>
                   <div class="col-md-8">
                     <div class="input-group">
-                      <input type="text" class="form-control" id="address" name="address" required>
+                      <textarea class="form-control" id="address" name="address" required></textarea>
                       </div>
                   </div>
                 </div>
@@ -294,7 +307,7 @@
                   <div class="col-md-8">
 
                     <div class="input-group">
-                      <input type="text" class="form-control"  id="other_details" name="other_details"  >
+                      <textarea class="form-control"  id="other_details" name="other_details" ></textarea>
                      
                       </div>
                   </div>
