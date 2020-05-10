@@ -198,7 +198,7 @@
 
                     <div class="input-group">
                     
-                     <input type="file" class="form-control" name="artist_photo">
+                     <input type="file" class="form-control-file" name="artist_photo">
                       </div>
                   </div>
                 </div>
