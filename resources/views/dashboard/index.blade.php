@@ -58,7 +58,7 @@
               </div>
             </div>
 
-            <div class="col-xl-3 col-md-6 mb-4"><a href="/admin/art">
+           {{--  <div class="col-xl-3 col-md-6 mb-4"><a href="/admin/art">
               <div class="card border-left-primary shadow h-100 py-2">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
@@ -73,7 +73,7 @@
                 </div>
               </div>
               </a>
-            </div>
+            </div> --}}
 
             <div class="col-xl-3 col-md-6 mb-4"><a href="/admin/settings">
               <div class="card border-left-primary shadow h-100 py-2">
@@ -89,12 +89,12 @@
                   </div>
                 </div>
               </div>
-              </a>
+             
             </div>
          
 
             <!-- Pending Requests Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4"><a href="/admin/language">
+            {{-- <div class="col-xl-3 col-md-6 mb-4"><a href="/admin/language">
               <div class="card border-left-primary shadow h-100 py-2">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
@@ -108,8 +108,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-            </a>
+            </div> --}}
+           
           </div>
 
           <!-- Content Row -->
