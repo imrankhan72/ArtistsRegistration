@@ -263,7 +263,7 @@
                 <br>
                 <div id="mode" class="row">
                   <div class="col-md-4">
-                    <label class="labelstrong" for="name">कला विधा में सक्रियता: <br> Select as Applicable <br>(लागू के रूप में चयन करें):</label>
+                    <label class="labelstrong" for="name">कला विधा में सक्रियता: </label>
                   </div>
                   <div class="col-md-8">
                     @foreach($arts as $art)
