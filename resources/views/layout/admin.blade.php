@@ -16,6 +16,10 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote-bs4.css" rel="stylesheet">
 
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.css"/>
+
+
+
   <!-- Custom styles for this template-->
   <link href="/backend/css/sb-admin-2.min.css" rel="stylesheet">
 
@@ -57,19 +61,19 @@
       <!-- Divider -->
       <hr class="sidebar-divider">
 
-         <li class="nav-item">
+         {{-- <li class="nav-item">
         <a class="nav-link" href="/admin/art">
           <i class="fas fa-fw fa-arrow-circle-right"></i>
           <span>Arts | कला</span></a>
       </li>
-      <hr class="sidebar-divider">
+      <hr class="sidebar-divider"> --}}
 
-         <li class="nav-item">
+        {{--  <li class="nav-item">
         <a class="nav-link" href="/admin/language">
           <i class="fas fa-fw fa-arrow-circle-right"></i>
           <span>Language | भाषा</span></a>
       </li>
-      <hr class="sidebar-divider">
+      <hr class="sidebar-divider"> --}}
 
          <li class="nav-item">
         <a class="nav-link" href="/admin/print">
@@ -194,6 +198,7 @@
   <!-- Bootstrap core JavaScript-->
   <script src="/backend/vendor/jquery/jquery.min.js"></script>
   <script src="/backend/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote-bs4.js"></script>
 
 
@@ -205,6 +210,11 @@
   <script src="/backend/js/sb-admin-2.js"></script>
 
   <script>
+
+    $(document).ready( function () {
+    $('#myTable').DataTable();
+      } );
+    
       $('#description').summernote({
         placeholder: 'Add your content here..',
         tabsize: 2,

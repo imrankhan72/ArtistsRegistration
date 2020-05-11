@@ -23,12 +23,10 @@
           
           Name : <br>
           Fathers Name : <br>
-          Date of Birth : <br>
+          Age : <br>
           Gender : <br>
-          Language : <br>
           Email Address : <br>
           Phone Number : <br>
-          State : <br>
           City : <br>
           Address : <br>
 
@@ -38,13 +36,11 @@
         {{$artist->name}}<br>
         {{$artist->fathersname}}<br>
         {{$artist->dob}}<br>
-      {{$artist->gender}}<br>
-      {{$artist->language}}<br>
-      {{$artist->email}}<br>
-      {{$artist->pno}}<br>
-      {{$artist->state}}<br>
-      {{$artist->city}}<br>
-      {{$artist->address}}<br>
+        {{$artist->gender}}<br>
+        {{$artist->email}}<br>
+        {{$artist->pno}}<br>
+        {{$artist->city}}<br>
+        {{$artist->address}}<br>
       </div>
 
 </div>
@@ -54,34 +50,28 @@
 <div class="row">
     <div class="col-md-4" style="font-weight: bold;">
     Download Artist Photo : <br>
-    Artist Level : <br>
+  
     Art Medium : <br>
-    Art Medium Sub-category : <br><br><br>
-    Artist Video URL : <br>
-    Name of Institute (Associated with Artist) : <br>
-    Address of Institute : <br>
-    Artist Adhaar Number : <br>
-    Artist Bank Name : <br>
-    Artist Bank IFSC Code : <br>
-    Artist Bank Branch Name : <br>
-    Artist's Scheme (Involved In) : <br>
-    Artist's Presenter : <br>
+    
+     Video URL : <br>
+    
+     Adhaar Number : <br>
+     PAN Number : <br>
+     Bank Name : <br>
+     Bank IFSC Code : <br>
+     Bank Branch Name : <br>
+
 
     </div>
     <div class="col-md-4">
           <a href="/userfiles/{{$artist->photourl}}" download>Download Photo</a><br>
-          {{$artist->artist_level}}<br>
           {{$artist->creation_mode}} <br>
-          {{$artist->creation_mode_sub}}<br><br><br>
           {{$artist->creation_video_url}}<br>
-          {{$artist->name_inst}}<br>
-          {{$artist->inst_address}}<br>
           {{$artist->adhaar}}<br>
           {{$artist->bank_name}}<br>
           {{$artist->ifsc_code}}<br>
           {{$artist->branch_name}}<br>
-          {{$artist->scheme}}<br>
-          {{$artist->presenter}}<br>
+
     </div>
     <div class="col-md-4">
         <h5>Creations uploade By Artist</h5>

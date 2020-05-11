@@ -17,7 +17,7 @@
 
       <h3>Artists ({{ $all_artist->count()}})</h3>
 
-<div class="table-responsive">
+<div class="table-responsive" id="myTable">
     <table class="table table-striped">
         <thead>
             <tr>
