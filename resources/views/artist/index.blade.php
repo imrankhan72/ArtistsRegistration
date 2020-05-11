@@ -21,14 +21,14 @@
     <table class="table table-striped" id="myTable">
         <thead>
             <tr>
-            <td>Id</td>
-            <td>Artist Name</td>
-            <td>Type Of Artist</td>
-            <td>Art / Arts</td>
-            <td>Phone Number</td>
-            <td>Artist Level</td>
+            <th>Id</th>
+            <th>Artist Name</th>
+            <th>Type Of Artist</th>
+            <th>Art / Arts</th>
+            <th>Phone Number</th>
+            <th>Artist Level</th>
 
-            <td colspan="3">Actions</td>
+            <th colspan="3">Actions</th>
             </tr>
         </thead>
          <tbody>
