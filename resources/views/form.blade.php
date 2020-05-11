@@ -129,7 +129,7 @@
                 <br>
                 <div class="row">
                   <div class="col-md-4">
-                    <label class="labelstrong" for="name"> Age (in years) / आयु (वर्षों  में)   :</label>
+                    <label class="labelstrong" for="name"> Age (in years) / आयु (वर्षों में)   :</label>
                   </div>
                   <div class="col-md-8">
 
@@ -148,7 +148,7 @@
                   </div>
                   <div class="col-md-8">
                      <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="gender" value="पुरुष">
+                      <input class="form-check-input" type="radio" name="gender" value="पुरुष" checked>
                       <label class="form-check-label" for="inlineCheckbox1">पुरुष</label>
                     </div>
                     <div class="form-check form-check-inline">

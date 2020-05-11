@@ -21,14 +21,14 @@
         <div class="col-md-3"><img style="width:200px;height:200px;" src="/userfiles/{{$artist->photourl}}" alt="No Photo Available"></div>
         <div class="col-md-4" style="font-weight: bold;">
           
-          Name : <br>
-          Fathers Name : <br>
-          Age : <br>
-          Gender : <br>
-          Email Address : <br>
-          Phone Number : <br>
-          City : <br>
-          Address : <br>
+         नाम: <br>
+          पिता का नाम: <br>
+          आयु (वर्षों में): <br>
+          लिंग : <br>
+          ईमेल : <br>
+          फ़ोन नंबर : <br>
+          जिला : <br>
+           पता : <br>
 
         </div>
         <div class="col-md-4">
@@ -49,22 +49,19 @@
 <hr>
 <div class="row">
     <div class="col-md-4" style="font-weight: bold;">
-    Download Artist Photo : <br>
-  
-    Art Medium : <br>
     
+   कला विधा : <br>
      Video URL : <br>
     
-     Adhaar Number : <br>
-     PAN Number : <br>
-     Bank Name : <br>
-     Bank IFSC Code : <br>
-     Bank Branch Name : <br>
+     आधार नंबर : <br>
+     पैन नंबर : <br>
+     बैंक नाम  : <br>
+    बैंक IFSC Code : <br>
+     बैंक शाखा का नाम : <br>
 
 
     </div>
     <div class="col-md-4">
-          <a href="/userfiles/{{$artist->photourl}}" download>Download Photo</a><br>
           {{$artist->creation_mode}} <br>
           {{$artist->creation_video_url}}<br>
           {{$artist->adhaar}}<br>
@@ -74,7 +71,7 @@
 
     </div>
     <div class="col-md-4">
-        <h5>Creations uploade By Artist</h5>
+        <h5>कला</h5>
         (Click on the photo to download)
         <hr>
         <div style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;background-color:lightblue;padding:10px;">
