@@ -167,13 +167,12 @@
                 <br>
                 <div class="row">
                   <div class="col-md-4">
-                    <label class="labelstrong" for="name">Adhaar No. (Optional) / आधार नंबर (वैकल्पिक):</label>
+                    <label class="labelstrong" for="name">Adhaar No.  / आधार नंबर :</label>
                   </div>
                   <div class="col-md-8">
 
                     <div class="input-group">
-                      <input type="tel" class="form-control" minlength="12" maxlength="12" id="adhaar" name="adhaar"  >
-                     
+                      <input type="tel" class="form-control" minlength="12" maxlength="12" id="adhaar" name="adhaar" required>
                       </div>
                   </div>
                 </div>
@@ -195,9 +194,9 @@
                     <label class="labelstrong" for="name">District / पता :</label>
                   </div>
                   <div class="col-md-8">
-                    <select class="form-control">
+                    <select class="form-control" name="city">
                      @foreach($districts as $district) 
-                     <option value="{{$loop->iteration}}" >{{$district}}</option>
+                     <option value="{{$district}}" >{{$district}}</option>
                      @endforeach
                     </select>
                   </div>
@@ -209,7 +208,7 @@
                   </div>
                   <div class="col-md-8">
                     <div class="input-group">
-                      <textarea class="form-control" id="address" name="address" required></textarea>
+                      <textarea class="form-control" name="experience" required></textarea>
                       </div>
                   </div>
                 </div>
