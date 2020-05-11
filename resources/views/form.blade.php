@@ -276,7 +276,7 @@
                 </div>
                 <div class="row">
                   <div class="col-md-4">
-                    <label class="labelstrong" for="name">Upload Arts (Optional) <br> अपलोड कला (फोटो अथवा वीडियो )(वैकल्पिक):</label>
+                    <label class="labelstrong" for="name">Upload Arts File (Optional) <br> अपलोड कला फाइल (फोटो अथवा वीडियो )(वैकल्पिक):</label>
                   </div>
                   <div class="col-md-8">
 
@@ -285,7 +285,7 @@
                     <br>
                     
                      <input type="file" class="form-control" name="creation[]" multiple>&nbsp;
-                     Max 5 Photos Allowed (20 Mb Max) <br>&nbsp;अधिकतम 5 फोटो अथवा एक वीडियो (अधिकतम 20 एमबी )
+                     Max 5 Photos or 1 Video (20 Mb Max) <br>&nbsp;अधिकतम 5 फोटो अथवा एक वीडियो (अधिकतम 20 एमबी )
                     </div>
                   </div>
                 </div>
