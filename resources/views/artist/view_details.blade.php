@@ -67,6 +67,7 @@
           {{$artist->creation_mode}} <br>
           {{$artist->creation_video_url}}<br>
           {{$artist->adhaar}}<br>
+          {{$artist->pan}}<br>
           {{$artist->bank_name}}<br>
           {{$artist->ifsc_code}}<br>
           {{$artist->branch_name}}<br>
