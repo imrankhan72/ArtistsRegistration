@@ -22,8 +22,8 @@ class Artist extends Model
     'creation_mode',
     'creation_mode_sub',
     'creation_video_url',
-    'name_inst',
-    'inst_address',
+    'pan',
+    'experience'
     'adhaar',
     'bank_name',
     'ifsc_code',
