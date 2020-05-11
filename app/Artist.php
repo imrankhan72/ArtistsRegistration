@@ -23,7 +23,7 @@ class Artist extends Model
     'creation_mode_sub',
     'creation_video_url',
     'pan',
-    'experience'
+    'experience',
     'adhaar',
     'bank_name',
     'ifsc_code',
