@@ -360,7 +360,8 @@
 
                 <br>
                 <div class="row">
-                  <div class="col-md-12">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-8">
                   <p class="labelstrong">Please accept the terms and conditions to submit / कृपया सबमिट करने के लिए नियम और शर्त स्वीकार करें 
                   <br><a href="/tnc"> <input type="checkbox"  onchange="checkedChanged(this)"/> &nbsp; (✔) नियम व शर्तें / Terms & Condition</a> &nbsp; </p>
                 </div>
