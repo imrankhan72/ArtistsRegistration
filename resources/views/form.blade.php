@@ -250,7 +250,7 @@
                 <br>
                 <div class="row">
                   <div class="col-md-4">
-                    <label class="labelstrong" for="name">Artist Photo / कलाकार फोटो:</label>
+                    <label class="labelstrong" for="name">Artist Photo / कलाकार का फोटो:</label>
                   </div>
                   <div class="col-md-8">
 
@@ -306,7 +306,7 @@
                 
                 <div class="row">
                   <div class="col-md-4">
-                    <label class="labelstrong" for="name">Artist's Bank Name (Optional) <br> कलाकार का बैंक नाम (वैकल्पिक):</label>
+                    <label class="labelstrong" for="name">Artist's Bank Name (Optional) <br> कलाकार के बैंक नाम (वैकल्पिक):</label>
                   </div>
                   <div class="col-md-8">
 
@@ -362,12 +362,20 @@
                 <div class="row">
                   <div class="col-md-12">
                   <p class="labelstrong">Please accept the terms and conditions to submit / कृपया सबमिट करने के लिए नियम और शर्त स्वीकार करें 
-                  <br><br><a href="/tnc">नियम व शर्तें / Terms & Condition</a> &nbsp; <input type="checkbox"  onchange="checkedChanged(this)"/> &nbsp; (✔)</p>
+                  <br><a href="/tnc"> <input type="checkbox"  onchange="checkedChanged(this)"/> &nbsp; (✔) नियम व शर्तें / Terms & Condition</a> &nbsp; </p>
                 </div>
                 </div>             
                 <br>
 
-                <button class="btn btn-primary btn-lg" id="tnc" type="submit" disabled="disabled" >Submit</button>
+                <div class="row">
+                   <div class="col-md-4"></div>
+                   <div class="col-md-4">
+                     <button class="btn btn-primary btn-lg" id="tnc" type="submit" disabled="disabled" >Submit</button>
+                  </div>
+                   <div class="col-md-4"></div>
+                </div>
+
+                
                 
 
           
@@ -382,7 +390,7 @@
 </body>
 
       <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">&copy; 2019 संस्कृति संचालनालय, मध्यप्रदेश शासन</p>
+        <p class="mb-1">&copy; 2020 संस्कृति संचालनालय, मध्यप्रदेश शासन</p>
        
       </footer>
 
