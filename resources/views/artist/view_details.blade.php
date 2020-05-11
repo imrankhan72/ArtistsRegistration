@@ -29,6 +29,7 @@
           फ़ोन नंबर : <br>
           जिला : <br>
            पता : <br>
+           कार्य अनुभव (प्रमाण पत्र, पुरस्कार इत्यादि) : <br>
 
         </div>
         <div class="col-md-4">
@@ -41,6 +42,7 @@
         {{$artist->pno}}<br>
         {{$artist->city}}<br>
         {{$artist->address}}<br>
+        {{$artist->experience}}<br>
       </div>
 
 </div>
