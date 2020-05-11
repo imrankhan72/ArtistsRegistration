@@ -26,9 +26,10 @@
             <th>Type Of Artist</th>
             <th>Art / Arts</th>
             <th>Phone Number</th>
-            <th>Artist Level</th>
+            <th>District</th>
+            
 
-            <th colspan="3">Actions</th>
+            <th>Actions</th>
             </tr>
         </thead>
          <tbody>
@@ -38,10 +39,8 @@
             <td><a href="artist/view_details/{{$artist->id}}">{{$artist->name}}</a></td>
             <td>{{$artist->creation_mode}}</td>
             <td>{{$artist->creation_mode_sub}}</td>
-
             <td>{{$artist->pno}}</td>
-            <td>{{$artist->artist_level}}</td>
-
+            <td>{{$artist->city}}</td>
             <td><a href="artist/edit/{{$artist->id}}" class="btn btn-primary">Edit</a></td>
             <td>
                <!-- never name route funtion and method of the form same -->
