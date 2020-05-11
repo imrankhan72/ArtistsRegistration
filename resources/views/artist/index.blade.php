@@ -24,12 +24,10 @@
             <th>Id</th>
             <th>Artist Name</th>
             <th>Type Of Artist</th>
-            <th>Art / Arts</th>
             <th>Phone Number</th>
             <th>District</th>
-            
-
-            <th>Actions</th>
+            <th>Edit</th>
+            <th>Delete</th>
             </tr>
         </thead>
          <tbody>
@@ -38,7 +36,6 @@
             <td>{{$loop->iteration }}</td>
             <td><a href="artist/view_details/{{$artist->id}}">{{$artist->name}}</a></td>
             <td>{{$artist->creation_mode}}</td>
-            <td>{{$artist->creation_mode_sub}}</td>
             <td>{{$artist->pno}}</td>
             <td>{{$artist->city}}</td>
             <td><a href="artist/edit/{{$artist->id}}" class="btn btn-primary">Edit</a></td>
