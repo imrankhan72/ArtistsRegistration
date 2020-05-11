@@ -37,6 +37,7 @@ class ArtistController extends Controller
             'name'=>$request->get('name'),
             'fathersname'=>$request->get('fathersname'),
             'dob'=>$request->get('dob'),
+            'gender'=>$request->get('gender'),
             'email'=>$request->get('email'),
             'pno'=>$request->get('pno'),
             'city'=>$request->get('city'),

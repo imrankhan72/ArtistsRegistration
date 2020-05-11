@@ -51,11 +51,7 @@
                         <div class="alert alert-success" role="alert">
                             {{ session('success') }}
                         </div>
-                    @endif
-
-                    
-               
-            
+                    @endif            
         </div>
     </div>
 </div>
@@ -148,6 +144,27 @@
                 <br>
                 <div class="row">
                   <div class="col-md-4">
+                    <label class="labelstrong" for="name"> Gender / लिंग   :</label>
+                  </div>
+                  <div class="col-md-8">
+                     <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="gender" value="पुरुष">
+                      <label class="form-check-label" for="inlineCheckbox1">पुरुष</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="gender" value="महिला">
+                      <label class="form-check-label" for="inlineCheckbox1">महिला</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="gender" value="अन्य">
+                      <label class="form-check-label" for="inlineCheckbox1">अन्य</label>
+                    </div>
+                    
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-md-4">
                     <label class="labelstrong" for="name">Email / ईमेल:</label>
                   </div>
                   <div class="col-md-8">
@@ -177,7 +194,7 @@
                   <div class="col-md-8">
 
                     <div class="input-group">
-                      <input type="tel" class="form-control" minlength="12" maxlength="12" id="adhaar" name="pan"  >
+                      <input type="tel" class="form-control" minlength="10" maxlength="10" id="adhaar" name="pan"  >
                      
                       </div>
                   </div>
@@ -222,7 +239,7 @@
                 <br>
                 <div class="row">
                   <div class="col-md-4">
-                    <label class="labelstrong" for="name">Experience / कार्य अनुभव: :</label>
+                    <label class="labelstrong" for="name">Experience (Awards etc) / कार्य अनुभव (प्रमाण पत्र, पुरस्कार इत्यादि  ) :</label>
                   </div>
                   <div class="col-md-8">
                     <div class="input-group">
