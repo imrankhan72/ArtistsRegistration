@@ -21,11 +21,11 @@
     <table class="table table-striped" id="myTable">
         <thead>
             <tr>
-            <th>Id</th>
-            <th>Artist Name</th>
-            <th>Type Of Artist</th>
-            <th>Phone Number</th>
-            <th>District</th>
+            <th>ID</th>
+            <th>नाम</th>
+            <th>कला विधा </th>
+            <th>फ़ोन नंबर </th>
+            <th>जिला</th>
             <th>Edit</th>
             <th>Delete</th>
             </tr>

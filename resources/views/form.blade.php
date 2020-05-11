@@ -191,7 +191,7 @@
                 <br>
                 <div class="row">
                   <div class="col-md-4">
-                    <label class="labelstrong" for="name">District / पता :</label>
+                    <label class="labelstrong" for="name">District / जिला :</label>
                   </div>
                   <div class="col-md-8">
                     <select class="form-control" name="city">
