@@ -371,7 +371,7 @@
                 <div class="row">
                    <div class="col-md-4"></div>
                    <div class="col-md-4">
-                     <button class="btn btn-primary btn-lg" id="tnc" type="submit" disabled="disabled" >Submit</button>
+                     <button class="btn btn-primary btn-block btn-lg" id="tnc" type="submit" disabled="disabled" >Submit</button>
                   </div>
                    <div class="col-md-4"></div>
                 </div>
